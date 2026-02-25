@@ -103,6 +103,8 @@ class MintBackends(MintSettings):
     mint_lnbits_key: Optional[str] = Field(default=None)
     mint_strike_key: Optional[str] = Field(default=None)
     mint_blink_key: Optional[str] = Field(default=None)
+    mint_phoenixd_url: Optional[str] = Field(default=None)
+    mint_phoenixd_password: Optional[str] = Field(default=None)
 
 
 class MintLimits(MintSettings):
